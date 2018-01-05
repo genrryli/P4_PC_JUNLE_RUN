@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5F32FF08-6DAC-15BF-DCA6-67237689CADD}</ProjectGuid>
+    <ProjectGuid>{84ED5682-08C3-B97E-DC61-B90B101E8101}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -49,7 +49,6 @@
      <Compile Include="Assets\CarWaypoints\Scripts\WaypointsModel.cs" />
      <Compile Include="Assets\CarWaypoints\Scripts\WaypointsXML.cs" />
      <Compile Include="Assets\CarWaypoints\Scripts\carcon_for_com.cs" />
-     <Compile Include="Assets\Import\Campfire Pack\Script\SwitchView.cs" />
      <Compile Include="Assets\Import\Chibi Mummy\Scripts\anims_controls.cs" />
      <Compile Include="Assets\Import\Chibi Mummy\Scripts\control_script.cs" />
      <Compile Include="Assets\Import\GrassRoadRace\Script\CameraMove.cs" />
@@ -106,13 +105,14 @@
      <Compile Include="Assets\Script\add_terrain.cs" />
      <Compile Include="Assets\Script\adder.cs" />
      <Compile Include="Assets\Script\angle.cs" />
+     <Compile Include="Assets\Script\bike_con.cs" />
      <Compile Include="Assets\Script\block_adder.cs" />
      <Compile Include="Assets\Script\bullet.cs" />
      <Compile Include="Assets\Script\button_con.cs" />
      <Compile Include="Assets\Script\button_shound.cs" />
      <Compile Include="Assets\Script\camera_con.cs" />
+     <Compile Include="Assets\Script\camera_con1.cs" />
      <Compile Include="Assets\Script\camera_direction.cs" />
-     <Compile Include="Assets\Script\change_sight.cs" />
      <Compile Include="Assets\Script\count_start_time.cs" />
      <Compile Include="Assets\Script\data_manager.cs" />
      <Compile Include="Assets\Script\devil.cs" />
@@ -124,13 +124,12 @@
      <Compile Include="Assets\Script\find_rival.cs" />
      <Compile Include="Assets\Script\follow_P_R.cs" />
      <Compile Include="Assets\Script\follow_rotate.cs" />
-     <Compile Include="Assets\Script\for_text6+\bike_con.cs" />
-     <Compile Include="Assets\Script\for_text6+\hover_motor.cs" />
      <Compile Include="Assets\Script\game_manager.cs" />
      <Compile Include="Assets\Script\gravity.cs" />
      <Compile Include="Assets\Script\gravity_child.cs" />
      <Compile Include="Assets\Script\gravity_suffer.cs" />
      <Compile Include="Assets\Script\hover.cs" />
+     <Compile Include="Assets\Script\hover_motor.cs" />
      <Compile Include="Assets\Script\idle.cs" />
      <Compile Include="Assets\Script\light_con.cs" />
      <Compile Include="Assets\Script\look_at_mouse.cs" />
@@ -238,7 +237,7 @@
      <None Include="Assets\Import\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Import\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/GENRRY/Desktop/UnityTest_0/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/GENRRY/Documents/_unity/P4_PC_JUNLE_RUN/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
