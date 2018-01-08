@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scene/start.unity
+- path: Assets/_Scene/jungle_day.unity
   isLoaded: 1
   isActive: 1

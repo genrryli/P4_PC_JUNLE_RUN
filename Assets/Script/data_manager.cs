@@ -97,10 +97,6 @@ public class data_manager : MonoBehaviour
             timer2 = 0;
         }
         //获取角度数据
-        //float rx = sporter_rotation.transform.localEulerAngles.x;
-        //float rz = sporter_rotation.transform.localEulerAngles.z;
-        //if (rx > 180) { rx = rx - 360; }
-        //if (rz > 180) { rz = rz - 360; }
         float forward_height_difference = rotater_1.transform.position.y - rotater_2.transform.position.y;
         float forward_dis = Vector3.Distance(rotater_1.transform.position, rotater_2.transform.position);
         float cross_height_difference = rotater_3.transform.position.y - rotater_4.transform.position.y;

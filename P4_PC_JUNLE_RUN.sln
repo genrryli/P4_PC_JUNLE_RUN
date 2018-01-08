@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{1C5D94A0-9817-4816-187C-7FAF16E7E02A}") = "P4_PC_JUNLE_RUN", "Assembly-CSharp-firstpass.csproj", "{F8E5E383-7857-FDEF-386D-F33BB2A10C56}"
+EndProject
 Project("{1C5D94A0-9817-4816-187C-7FAF16E7E02A}") = "P4_PC_JUNLE_RUN", "Assembly-CSharp.csproj", "{84ED5682-08C3-B97E-DC61-B90B101E8101}"
 EndProject
 Project("{1C5D94A0-9817-4816-187C-7FAF16E7E02A}") = "P4_PC_JUNLE_RUN", "Assembly-CSharp-Editor.csproj", "{B7E06B47-2D83-0D5B-2DF3-FAC57948F241}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8E5E383-7857-FDEF-386D-F33BB2A10C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8E5E383-7857-FDEF-386D-F33BB2A10C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8E5E383-7857-FDEF-386D-F33BB2A10C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8E5E383-7857-FDEF-386D-F33BB2A10C56}.Release|Any CPU.Build.0 = Release|Any CPU
 		{84ED5682-08C3-B97E-DC61-B90B101E8101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{84ED5682-08C3-B97E-DC61-B90B101E8101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84ED5682-08C3-B97E-DC61-B90B101E8101}.Release|Any CPU.ActiveCfg = Release|Any CPU
